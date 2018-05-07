@@ -1,0 +1,31 @@
+scrapeThinkScript.js:1 undefined
+scrape()
+
+
+
+Any
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/Any.html
+
+boolean
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/boolean.html
+
+CustomColor
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/CustomColor.html
+
+double
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/double.html
+
+IDataHolder
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/IDataHolder.html
+
+int
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/int.html
+
+String
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/String.html
+
+Symbol
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/Symbol.html
+
+Data Conversion
+http://tlc.thinkorswim.com/center/reference/thinkScript/Data-Types/Data-Conversion.html

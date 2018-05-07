@@ -1,0 +1,35 @@
+var declarations = document.getElementsByClassName("childList")[0]
+undefined
+_.each(declarations.children, (element) => {
+    console.log(element.innerText);
+	console.log(element.children[0].href);
+    console.log('\n');
+})
+
+
+hide_on_daily
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/hide-on-daily.html
+
+hide_on_intraday
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/hide-on-intraday.html
+
+lower
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/lower.html
+
+on_volume
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/on-volume.html
+
+once_per_bar
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/once-per-bar.html
+
+real_size
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/real-size.html
+
+upper
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/upper.html
+
+weak_volume_dependency
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/weak-volume-dependency.html
+
+zerobase
+http://tlc.thinkorswim.com/center/reference/thinkScript/Declarations/zerobase.html

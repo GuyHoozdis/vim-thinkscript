@@ -1,0 +1,45 @@
+Inject:37 jQuery-3.1.1 ($) and lodash-4.17.4 (_) should now be available in your console!
+Inject:38 See https://api.jquery.com and https://lodash.com/docs for documentation.
+Inject:1 undefined
+var functions = document.getElementsByClassName("childList")[0]
+undefined
+_.each(functions.children, (element) => {
+    console.log(element.innerText);
+	console.log(element.children[0].href);
+    console.log('\n');
+})
+
+
+# !!!: These look like groups of functions... go back and do it again.
+Fundamentals
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Fundamentals.html
+
+Option Related
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Option-Related.html
+
+Technical Analysis
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Tech-Analysis.html
+
+Mathematical and Trigonometric
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Math---Trig.html
+
+Statistical
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Statistical.html
+
+Date and Time
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Date---Time.html
+
+Corporate Actions
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Corporate-Actions.html
+
+Look and Feel
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Look---Feel.html
+
+Portfolio
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Portfolio.html
+
+Profiles
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Profiles.html
+
+Others
+http://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Others.html

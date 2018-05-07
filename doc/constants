@@ -1,0 +1,69 @@
+Inject:37 jQuery-3.1.1 ($) and lodash-4.17.4 (_) should now be available in your console!
+Inject:38 See https://api.jquery.com and https://lodash.com/docs for documentation.
+Inject:1 undefined
+var constants = document.getElementsByClassName("childList")[0]
+undefined
+_.each(constants.children, (element) => {
+    console.log(element.innerText);
+	console.log(element.children[0].href);
+    console.log('\n');
+})
+
+
+
+AggregationPeriod
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/AggregationPeriod.html
+
+Alert
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/Alert.html
+
+AverageType
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/AverageType.html
+
+ChartType
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/ChartType.html
+
+Color
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/Color.html
+
+CrossingDirection
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/CrossingDirection.html
+
+Curve
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/Curve.html
+
+Double
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/Double.html
+
+EarningTime
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/EarningTime.html
+
+Events
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/Events.html
+
+FundamentalType
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/FundamentalType.html
+
+MonkeyVolumeShowStyle
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/MonkeyVolumeShowStyle.html
+
+NumberFormat
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/NumberFormat.html
+
+OptionClass
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/OptionClass.html
+
+OrderType
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/OrderType.html
+
+PaintingStrategy
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/PaintingStrategy.html
+
+PricePerRow
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/PricePerRow.html
+
+PriceType
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/PriceType.html
+
+Sound
+http://tlc.thinkorswim.com/center/reference/thinkScript/Constants/Sound.html

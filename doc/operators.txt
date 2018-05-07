@@ -1,0 +1,21 @@
+scrapeThinkScript.js:1 undefined
+scrape()
+
+
+Arithmetic
+http://tlc.thinkorswim.com/center/reference/thinkScript/Operators/Arithmetic.html
+
+Comparison
+http://tlc.thinkorswim.com/center/reference/thinkScript/Operators/Comparison.html
+
+Conditional
+http://tlc.thinkorswim.com/center/reference/thinkScript/Operators/Conditional.html
+
+Indexing
+http://tlc.thinkorswim.com/center/reference/thinkScript/Operators/Indexing.html
+
+Logical
+http://tlc.thinkorswim.com/center/reference/thinkScript/Operators/Logical.html
+
+Operator Precedence
+http://tlc.thinkorswim.com/center/reference/thinkScript/Operators/Operator-Precedence.html

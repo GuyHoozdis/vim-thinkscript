@@ -1,0 +1,153 @@
+# Reserved Words
+
+Reserved words are simple commands that control the basic behavior of the _study_.
+
+
+## Parsing the Web Documentation
+
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words.html
+
+
+Using Chrome Dev Tools, I selected the element such that `<ul class="childlist"> == $0`.  
+
+(For some reason attempting the same through `document.getElementsByClassname("childlist")` did not 
+achieve the same results.  I'll have to look for what I did wrong some other time.)
+
+```
+reserved_words = $0
+reserved_words_array = Array.from(reserved_words.children)
+var results = reserved_words_array.forEach(element => {
+    console.log(element.innerText);
+    console.log(element.firstElementChild.href);
+    console.log('\n');
+})
+```
+
+Which produced the following list.  _(Actually, I r-clicked in the console, selected "Save as", and then cleaned up 
+this file with some vim macros.  I should be able to make that all a bit easier.)_
+
+
+## Reference
+
+above
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/above.html
+
+ago
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/ago.html
+
+and
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/and.html
+
+bar
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/bar.html
+
+bars
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/bars.html
+
+below
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/below.html
+
+between
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/between.html
+
+case
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/case.html
+
+crosses
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/crosses.html
+
+declare
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/declare.html
+
+def
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/def.html
+
+default
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/default.html
+
+do
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/do.html
+
+else
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/else.html
+
+equal
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/equal.html
+
+equals
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/equals.html
+
+false
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/false.html
+
+fold
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/fold.html
+
+from
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/from.html
+
+greater
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/greater.html
+
+if
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/if.html
+
+input
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/input.html
+
+is
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/is.html
+
+less
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/less.html
+
+no
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/no.html
+
+not
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/not.html
+
+or
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/or.html
+
+plot
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/plot.html
+
+profile
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/profile.html
+
+rec
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/rec.html
+
+reference
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/reference.html
+
+script
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/script.html
+
+switch
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/switch.html
+
+than
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/than.html
+
+then
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/then.html
+
+to
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/to.html
+
+true
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/true.html
+
+while
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/while.html
+
+with
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/with.html
+
+within
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/within.html
+
+yes
+http://tlc.thinkorswim.com/center/reference/thinkScript/Reserved-Words/yes.html
